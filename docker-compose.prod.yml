@@ -19,7 +19,7 @@ services:
     image: postgres:11.2-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data/
-    env_file: .env.db
+#    env_file: .env.db
   nginx:
     image: nginx:1.15.12-alpine
 #    build: ./nginx
